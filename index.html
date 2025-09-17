@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helena Luna</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="./images/1x/light-logo.png" alt="Helena Luna logo" class="hero-logo">
+            <h2>Seja muito bem-vinda</h2>
+            <p>Viva o melhor em cuidados com cabelo, pele e unhas.</p>
+            <a href="#" class="button">Agende um horário</a>
+        </div>
+    </section>
+    <header>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Blog</a>
+            <a href="#">Trabalhos</a>
+            <a href="#">Nossos Serviços</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>Penteados</h3>
+                <p>Cortes modernos, coloração e tratamentos para todos os tipos de cabelo.</p>
+            </div>
+            <div class="service">
+                <h3>Limpeza de Pele</h3>
+                <p>Tratamentos faciais relaxantes e revigorantes para uma pele radiante.</p>
+            </div>
+            <div class="service">
+                <h3>Manicure & Pedicure</h3>
+                <p>Cuide das suas mãos e pés com nossa equipe especializada em unhas.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; <span id="year"></span> Helena Luna. Todos os direitos reservados.
+    </footer>
+    <script src="./js/index.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
